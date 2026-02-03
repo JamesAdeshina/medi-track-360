@@ -1,0 +1,94 @@
+{
+  "drugs": [
+    {
+      "drug_id": 1,
+      "drug_name": "Paracetamol 500mg",
+      "category": "Analgesic",
+      "current_stock": 120,
+      "threshold": 30,
+      "expiry_date": "2026-04-01",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 2,
+      "drug_name": "Ibuprofen 400mg",
+      "category": "Analgesic",
+      "current_stock": 80,
+      "threshold": 25,
+      "expiry_date": "2026-02-10",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 3,
+      "drug_name": "Amoxicillin 500mg",
+      "category": "Antibiotic",
+      "current_stock": 45,
+      "threshold": 20,
+      "expiry_date": "2025-11-15",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 4,
+      "drug_name": "Metformin 500mg",
+      "category": "Antidiabetic",
+      "current_stock": 70,
+      "threshold": 25,
+      "expiry_date": "2026-01-20",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 5,
+      "drug_name": "Lisinopril 10mg",
+      "category": "Antihypertensive",
+      "current_stock": 55,
+      "threshold": 20,
+      "expiry_date": "2026-03-05",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 6,
+      "drug_name": "Azithromycin 250mg",
+      "category": "Antibiotic",
+      "current_stock": 35,
+      "threshold": 15,
+      "expiry_date": "2025-12-01",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 7,
+      "drug_name": "Ciprofloxacin 500mg",
+      "category": "Antibiotic",
+      "current_stock": 28,
+      "threshold": 15,
+      "expiry_date": "2025-12-20",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 8,
+      "drug_name": "Artemether/Lumefantrine 20/120mg",
+      "category": "Antimalarial",
+      "current_stock": 90,
+      "threshold": 30,
+      "expiry_date": "2026-04-15",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 9,
+      "drug_name": "Omeprazole 20mg",
+      "category": "Antacid",
+      "current_stock": 60,
+      "threshold": 20,
+      "expiry_date": "2026-05-01",
+      "last_updated": "2025-10-31T10:30:00Z"
+    },
+    {
+      "drug_id": 10,
+      "drug_name": "Insulin (Regular)",
+      "category": "Antidiabetic",
+      "current_stock": 25,
+      "threshold": 10,
+      "expiry_date": "2025-09-30",
+      "last_updated": "2025-10-31T10:30:00Z"
+    }
+  ]
+}
