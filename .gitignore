@@ -1,4 +1,28 @@
+# ======================
+# Terraform
+# ======================
 terraform/.terraform/
 terraform/.terraform.lock.hcl
 terraform/*.tfstate
 terraform/*.tfstate.backup
+
+# ======================
+# Docker / Airflow
+# ======================
+docker/airflow/logs/
+
+# ======================
+# IDE files
+# ======================
+.idea/
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+
+# ======================
+# Virtual environments
+# ======================
+venv/
