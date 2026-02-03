@@ -1,0 +1,11 @@
+drug_id,drug_name,category,current_stock,threshold,expiry_date,last_updated
+1,Paracetamol 500mg,Analgesic,120,30,2026-04-01,2025-10-31T10:30:00Z
+2,Ibuprofen 400mg,Analgesic,80,25,2026-02-10,2025-10-31T10:30:00Z
+3,Amoxicillin 500mg,Antibiotic,45,20,2025-11-15,2025-10-31T10:30:00Z
+4,Metformin 500mg,Antidiabetic,70,25,2026-01-20,2025-10-31T10:30:00Z
+5,Lisinopril 10mg,Antihypertensive,55,20,2026-03-05,2025-10-31T10:30:00Z
+6,Azithromycin 250mg,Antibiotic,35,15,2025-12-01,2025-10-31T10:30:00Z
+7,Ciprofloxacin 500mg,Antibiotic,28,15,2025-12-20,2025-10-31T10:30:00Z
+8,Artemether/Lumefantrine 20/120mg,Antimalarial,90,30,2026-04-15,2025-10-31T10:30:00Z
+9,Omeprazole 20mg,Antacid,60,20,2026-05-01,2025-10-31T10:30:00Z
+10,Insulin (Regular),Antidiabetic,25,10,2025-09-30,2025-10-31T10:30:00Z
