@@ -25,3 +25,17 @@ Data flows through a medallion architecture:
 3. **Gold Layer:** Fact and dimension tables optimized for analytics
 4. **Presentation Layer:** Redshift for Power BI consumption
 
+## Project Structure
+```
+medi-track-360/
+├── dags/                   # Apache Airflow DAGs for workflow orchestration
+├── docker/                 # Dockerfiles and container configurations
+├── docs/                   # Documentation, guides, and diagrams
+├── scripts/                # Utility scripts, ETL helpers, data processing scripts
+├── terraform/              # Infrastructure-as-code configurations (Terraform)
+├── .gitignore              # Files and directories to be ignored by Git
+├── README.md               # Project overview and instructions
+├── CONTRIBUTING.md         # Guidelines for contributing to the project
+├── main.py                 # Main entry point or example script
+└── requirements.txt        # Python dependencies
+```
