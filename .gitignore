@@ -1,0 +1,12 @@
+# Ignore airflow logs
+docker/airflow/logs/
+
+# Ignore IDE configuration files
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
