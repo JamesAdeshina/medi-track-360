@@ -9,4 +9,6 @@ __pycache__/
 *.pyc
 
 # Ignore virtual environments
+venv/docker/data/
+.idea/
 venv/
