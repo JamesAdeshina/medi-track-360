@@ -1,12 +1,28 @@
-# Ignore airflow logs
+# ======================
+# Terraform
+# ======================
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.backup
+
+# ======================
+# Docker / Airflow
+# ======================
 docker/airflow/logs/
 
-# Ignore IDE configuration files
+# ======================
+# IDE files
+# ======================
 .idea/
 
-# Ignore Python cache files
+# ======================
+# Python
+# ======================
 __pycache__/
 *.pyc
 
-# Ignore virtual environments
+# ======================
+# Virtual environments
+# ======================
 venv/
