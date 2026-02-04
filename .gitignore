@@ -26,3 +26,12 @@ __pycache__/
 # Virtual environments
 # ======================
 venv/
+
+.env
+data/
+*.csv
+*.json
+.idea/
+
+
+.idea/workspace.xml
