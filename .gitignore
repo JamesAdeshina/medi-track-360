@@ -12,3 +12,9 @@ __pycache__/
 venv/docker/data/
 .idea/
 venv/
+
+.env
+data/
+*.csv
+*.json
+.idea/
