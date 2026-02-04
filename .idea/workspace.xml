@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bcddf40-8832-42e9-a6ec-ebab96546111" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dags/gold_orchestrator.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dags/silver_orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dags/transformation/silver_to_gold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/bronze_to_silver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/gold_orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/lab_csv_to_bronze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/master_orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/pharmacy_api_to_bronze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/postgres_to_bronze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/silver_orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/airflow/dags/silver_to_gold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/init-airflow.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/setup_s3_aws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_aws_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/aws_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/aws_config.py" afterDir="false" />
