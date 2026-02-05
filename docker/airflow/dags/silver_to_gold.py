@@ -895,6 +895,7 @@ with DAG(
         python_callable=create_pharmacy_stock_fact,
     )
 
-    # Define dependencies: dimensions first, then facts
-    date_dim_task >> [patient_dim_task, ward_dim_task, drug_dim_task] >> [admissions_fact_task, lab_fact_task,
-                                                                          pharmacy_fact_task]
+    # Each dimension goes to each fact
+    for dim in [patient_dim_task, ward_dim_task, drug_dim_task]:
+        for fact in [admissions_fact_task, lab_fact_task, pharmacy_fact_task]:
+            dim >> fact

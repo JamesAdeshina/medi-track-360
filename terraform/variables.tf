@@ -1,7 +1,11 @@
-variable "project_name" {
-  default = "meditrack360-data-lake"
+variable "redshift_master_username" {
+  description = "Master username for Redshift cluster"
+  type        = string
+  default     = "admin"
 }
 
-variable "environment" {
-  default = "dev"
+variable "redshift_master_password" {
+  description = "Master password for Redshift cluster"
+  type        = string
+  sensitive   = true
 }

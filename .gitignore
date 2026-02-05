@@ -35,3 +35,9 @@ data/
 
 
 .idea/workspace.xml
+
+echo '*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+terraform.tfvars' > terraform/.gitignore
